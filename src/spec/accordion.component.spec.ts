@@ -47,7 +47,7 @@ function hasTitle(element:HTMLElement, str:string):boolean {
   return element.textContent === str;
 }
 
-xdescribe('Component: Accordion', () => {
+describe('Component: Accordion', () => {
   let fixture:ComponentFixture<TestAccordionComponent>;
   let context:any;
   let element:any;
