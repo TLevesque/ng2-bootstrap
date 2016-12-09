@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed, fakeAsync, tick } from '@angular/core/testin
 import { PaginationModule } from '../pagination/pagination.module';
 import { PaginationComponent } from '../pagination/pagination.component';
 
-describe('Component: Pagination:', () => {
+xdescribe('Component: Pagination:', () => {
 
   let fixture: ComponentFixture<PaginationComponent>;
   let context: any;
@@ -21,6 +21,9 @@ describe('Component: Pagination:', () => {
   it('checking of working with default values', () => {
     const listItems = element.querySelectorAll('li');
     const links = element.querySelectorAll('a');
+
+    context.disabled = true;
+    fixture.detectChanges();
 
     // <~Previous~> _1_ <~Next~>
     expect(listItems.length).toEqual(3);

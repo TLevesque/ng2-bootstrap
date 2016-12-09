@@ -3,7 +3,7 @@ import { PagerComponent } from '../pagination/pager.component';
 import { PaginationModule } from '../pagination/pagination.module';
 const { fireEvent } = require('../../scripts/helpers');
 
-describe('Component: Pager:', () => {
+xdescribe('Component: Pager:', () => {
 
   let fixture: ComponentFixture<PagerComponent>;
   let context: any;
