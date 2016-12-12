@@ -624,21 +624,16 @@ pre {
 }
 
 .app-footer {
-  padding: 3rem 0;
+  padding: 3rem 2rem;
   margin-top: 3rem;
   background-color: #f7f7f7;
   text-align: left;
   color: #818a91 !important;
-  font-size: 13px;
 }
 
 .app-footer a {
   font-weight: 500;
   color: #55595c;
-}
-
-.app-footer p {
-  line-height: 12px;
 }
 
 .app-footer a:hover {
